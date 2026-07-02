@@ -1,0 +1,10 @@
+.DS_Store
+
+# Third-party papers should not be committed unless their license explicitly allows redistribution.
+papers/*.pdf
+
+# Local exports and generated media.
+*.tmp
+*.log
+exports/
+
