@@ -1,0 +1,4 @@
+interface:
+  display_name: "Know Your Unknowns"
+  short_description: "Surface unknowns with agent artifacts"
+  default_prompt: "Use $know-your-unknowns to choose the right artifact for surfacing unknowns in this task."

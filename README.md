@@ -13,6 +13,7 @@ PaperReading/
   notes/          # 每篇论文一份阅读笔记
   topics/         # 跨论文主题整理、阅读路线、对比分析
   shares/         # 某次论文分享的提纲、讲稿、slides 素材
+  skills/         # 可分享给 Codex / Claude 的 workflow skills
   assets/         # 图片、截图、表格等通用材料
   templates/      # 笔记和分享模板
 ```
@@ -53,6 +54,10 @@ notes/2026_privileged-information-distillation-for-language-models.md
 这个仓库计划开源时，默认只提交原创笔记、主题整理、分享稿和模板。第三方论文 PDF 默认保留在本地，不提交到 GitHub；如果某篇论文明确允许再分发，再单独记录许可证来源后提交。
 
 发布前可以检查 [docs/open-source-checklist.md](docs/open-source-checklist.md)。
+
+## Skills 和来源说明
+
+`skills/` 下的 workflow skills 可以复制给 Codex 或 Claude 使用。若 skill 改写自第三方开源项目，会在对应目录保留来源和许可证说明；例如 [skills/know-your-unknowns](skills/know-your-unknowns/SKILL.md) 改写自 HTML-effectiveness 的 `Know your unknowns` 示例，具体来源见 [THIRD_PARTY_NOTICES.md](skills/know-your-unknowns/THIRD_PARTY_NOTICES.md)。
 
 ## License
 
