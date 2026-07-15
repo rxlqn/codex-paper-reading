@@ -8,3 +8,4 @@ papers/*.pdf
 *.log
 exports/
 
+*.png
